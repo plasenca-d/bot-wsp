@@ -21,8 +21,9 @@ RUN apk add --no-cache \
   libxrender \
   dumb-init
 
+COPY . .
+
 RUN bun install
 
-COPY . .
 
 CMD ["bun", "index.ts"]
