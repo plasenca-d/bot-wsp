@@ -19,7 +19,9 @@ RUN apk add --no-cache \
   libxi \
   libxtst \
   libxrender \
-  dumb-init
+  dumb-init \
+  gtk+3.0 \
+  gcompat
 
 COPY . .
 
