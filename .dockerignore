@@ -1,0 +1,8 @@
+node_modules/
+
+.env
+.env.template
+
+.wweb*
+README.md
+.gitignore
